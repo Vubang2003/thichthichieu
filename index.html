@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AURA Voyages — hành trình riêng được thiết kế chậm rãi, tinh tế và có chiều sâu.">
+  <meta name="theme-color" content="#101816">
+  <title>AURA Voyages — Hành trình có chiều sâu</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23101816'/%3E%3Cpath d='M16 47 28 16h8l12 31h-8l-3-8H27l-3 8h-8Zm13-15h6l-3-8-3 8Z' fill='%23e6ae63'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Đi thẳng đến nội dung</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="AURA Voyages - về đầu trang">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">AURA <em>VOYAGES</em></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Điều hướng chính">
+      <a href="#journeys">Hành trình</a>
+      <a href="#philosophy">Triết lý</a>
+      <a href="#journal">Tạp chí</a>
+    </nav>
+    <a class="header-link" href="#contact">Thiết kế chuyến đi <span aria-hidden="true">↗</span></a>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Mở menu">
+    <label class="nav-toggle-label" for="nav-toggle"><span></span><span></span></label>
+    <nav class="mobile-nav" aria-label="Điều hướng di động">
+      <a href="#journeys">Hành trình</a>
+      <a href="#philosophy">Triết lý</a>
+      <a href="#journal">Tạp chí</a>
+      <a href="#contact">Thiết kế chuyến đi</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="Ruộng bậc thang trong sương sớm ở vùng núi phía Bắc Việt Nam"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow intro intro-delay-1"><span class="eyebrow-line"></span> Travel, considered</p>
+        <h1 id="hero-title" class="intro intro-delay-2">Đi xa để<br><i>chạm</i> vào mình.</h1>
+        <p class="hero-deck intro intro-delay-3">Những hành trình riêng được thiết kế như một tác phẩm — chậm hơn, sâu hơn và chỉ dành cho bạn.</p>
+        <a class="button button-light intro intro-delay-4" href="#journeys">Khám phá hành trình <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-bottom intro intro-delay-4">
+        <span>14° 02' N &nbsp;·&nbsp; 108° 16' E</span>
+        <span>Việt Nam &nbsp;—&nbsp; mùa khô 2025</span>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span> Cuộn để bắt đầu</div>
+    </section>
+
+    <section class="discovery section-pad" id="journeys" aria-labelledby="journeys-title">
+      <div class="section-intro reveal">
+        <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> Chọn nhịp điệu của bạn</p>
+        <h2 id="journeys-title">Một nơi chốn.<br><i>Vô vàn cách cảm.</i></h2>
+        <p class="section-lede">Không có lịch trình đóng gói. Chỉ có những điểm chạm được sắp đặt vừa đủ để bạn nghe thấy tiếng nói của vùng đất.</p>
+      </div>
+      <form class="trip-search reveal" aria-label="Tìm kiếm hành trình">
+        <div class="search-field"><label for="destination">Tôi muốn đến</label><select id="destination"><option>Đông Nam Á</option><option>Miền Bắc Việt Nam</option><option>Quần đảo Indonesia</option><option>Miền Trung Nhật Bản</option></select></div>
+        <div class="search-field"><label for="mood">Tâm trạng</label><select id="mood"><option>Chậm & tĩnh</option><option>Phiêu lưu</option><option>Vị giác</option><option>Thiên nhiên</option></select></div>
+        <div class="search-field"><label for="duration">Số ngày</label><select id="duration"><option>7 — 10 ngày</option><option>3 — 5 ngày</option><option>11 — 14 ngày</option></select></div>
+        <button class="search-submit" type="submit" aria-label="Tìm hành trình"><span aria-hidden="true">⌕</span></button>
+      </form>
+      <div class="journey-grid">
+        <article class="journey-card journey-card-tall reveal reveal-delay-1">
+          <div class="card-image image-north"></div>
+          <div class="card-overlay"></div>
+          <div class="card-content"><p class="card-kicker">01 / Bắc Việt Nam</p><h3>Nơi mây<br>về ngang núi</h3><p class="card-meta">10 ngày &nbsp;·&nbsp; Từ 68.000.000₫</p><a class="text-link" href="#contact">Xem hành trình <span>↗</span></a></div>
+        </article>
+        <article class="journey-card journey-card-small reveal reveal-delay-2">
+          <div class="card-image image-islands"></div>
+          <div class="card-overlay"></div>
+          <div class="card-content"><p class="card-kicker">02 / Indonesia</p><h3>Thở cùng<br>những hòn đảo</h3><p class="card-meta">8 ngày &nbsp;·&nbsp; Từ 52.000.000₫</p><a class="text-link" href="#contact">Xem hành trình <span>↗</span></a></div>
+        </article>
+        <article class="journey-card journey-card-small reveal reveal-delay-3">
+          <div class="card-image image-japan"></div>
+          <div class="card-overlay"></div>
+          <div class="card-content"><p class="card-kicker">03 / Nhật Bản</p><h3>Mùa xanh<br>ở Kii</h3><p class="card-meta">7 ngày &nbsp;·&nbsp; Từ 74.000.000₫</p><a class="text-link" href="#contact">Xem hành trình <span>↗</span></a></div>
+        </article>
+      </div>
+      <p class="micro-note reveal"><span class="gold-dot"></span> Mỗi hành trình chỉ nhận tối đa 8 khách / đoàn</p>
+    </section>
+
+    <section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
+      <div class="philosophy-image reveal"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85" alt="Người chèo thuyền giữa mặt hồ xanh, bao quanh bởi núi rừng" loading="lazy"><span class="image-caption">Hồ Ba Bể, Việt Nam<br><i>06:12 — tĩnh lặng trước bình minh</i></span></div>
+      <div class="philosophy-copy section-pad reveal reveal-delay-1">
+        <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> Chúng tôi tin</p>
+        <h2 id="philosophy-title">Đi thật xa,<br><i>ở thật gần.</i></h2>
+        <p>Du lịch không phải là danh sách những nơi đã đi qua. Đó là khoảng lặng giữa hai chuyến tàu, là bữa cơm bên bếp lửa, là cách một người lạ gọi bạn bằng tên sau một ngày.</p>
+        <p>AURA kết nối bạn với những người làm nên vùng đất — những người dẫn đường, nghệ nhân, đầu bếp và gia đình địa phương — để mỗi khoảnh khắc trở thành một ký ức có gốc rễ.</p>
+        <a class="button button-dark" href="#journal">Đọc câu chuyện của chúng tôi <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="route section-pad" aria-labelledby="route-title">
+      <div class="route-heading reveal"><p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> Một ngày cùng AURA</p><h2 id="route-title">Hành trình<br><i>không vội vàng.</i></h2></div>
+      <div class="route-layout">
+        <ol class="route-list">
+          <li class="route-step reveal reveal-delay-1"><span class="step-number">06:12</span><div><h3>Đón bình minh</h3><p>Trà shan tuyết trên đỉnh đồi, cùng người hái trà thế hệ thứ ba.</p></div></li>
+          <li class="route-step reveal reveal-delay-2"><span class="step-number">11:40</span><div><h3>Bữa trưa có câu chuyện</h3><p>Thực đơn theo mùa được nấu ngay trong căn bếp của một gia đình bản địa.</p></div></li>
+          <li class="route-step reveal reveal-delay-3"><span class="step-number">16:08</span><div><h3>Con đường riêng</h3><p>Rời khỏi cung đường quen thuộc, đi bộ qua rừng cùng một người dẫn đường địa phương.</p></div></li>
+          <li class="route-step reveal reveal-delay-4"><span class="step-number">20:15</span><div><h3>Nhìn trời kể chuyện</h3><p>Một bếp lửa, vài giai điệu và bầu trời không có ánh đèn thành phố.</p></div></li>
+        </ol>
+        <div class="route-visual reveal reveal-delay-2" aria-label="Minh họa tuyến hành trình từ núi xuống thung lũng"><div class="route-orbit orbit-one"></div><div class="route-orbit orbit-two"></div><span class="route-pin pin-one">01</span><span class="route-pin pin-two">02</span><span class="route-pin pin-three">03</span><span class="route-pin pin-four">04</span><span class="route-center">AURA<br><small>route no. 07</small></span></div>
+      </div>
+    </section>
+
+    <section class="journal section-pad" id="journal" aria-labelledby="journal-title">
+      <div class="journal-heading reveal"><p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> Từ cuốn tạp chí AURA</p><h2 id="journal-title">Ghi chú<br><i>trên đường.</i></h2><a class="text-link text-link-dark" href="#contact">Xem tất cả bài viết <span>↗</span></a></div>
+      <div class="journal-grid">
+        <article class="journal-card journal-card-feature reveal reveal-delay-1"><div class="journal-thumb journal-thumb-1"></div><div class="journal-card-copy"><p class="card-kicker">Field note / 04.25</p><h3>Đi tìm vị mặn của biển trong một căn bếp nhỏ</h3><p>Ở làng chài Bình Minh, mọi công thức đều bắt đầu bằng một cuộc trò chuyện.</p><a href="#contact" class="arrow-link" aria-label="Đọc bài viết: Đi tìm vị mặn của biển">Đọc bài viết <span>↗</span></a></div></article>
+        <article class="journal-card reveal reveal-delay-2"><div class="journal-thumb journal-thumb-2"></div><div class="journal-card-copy"><p class="card-kicker">People / 03.25</p><h3>Người giữ rừng trà Shan</h3><a href="#contact" class="arrow-link" aria-label="Đọc bài viết: Người giữ rừng trà Shan">Đọc bài viết <span>↗</span></a></div></article>
+        <article class="journal-card reveal reveal-delay-3"><div class="journal-thumb journal-thumb-3"></div><div class="journal-card-copy"><p class="card-kicker">Ritual / 02.25</p><h3>Nghi thức của một buổi sáng chậm</h3><a href="#contact" class="arrow-link" aria-label="Đọc bài viết: Nghi thức của một buổi sáng chậm">Đọc bài viết <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="testimonial section-pad reveal" aria-label="Đánh giá của khách hàng">
+      <p class="quote-mark" aria-hidden="true">“</p><blockquote>Chúng tôi không mang về nhiều ảnh. Chúng tôi mang về mùi khói bếp, tên của cô chủ nhà và cảm giác mình vừa sống thêm một cuộc đời khác.</blockquote><p class="quote-author">— Minh & Linh, hành trình Hà Giang 2024</p>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner reveal"><p class="eyebrow"><span class="eyebrow-line"></span> Bắt đầu từ một câu hỏi</p><h2 id="contact-title">Chuyến đi tiếp theo<br><i>đang gọi tên bạn.</i></h2><p>Hãy kể cho chúng tôi nơi bạn muốn đến, điều bạn muốn cảm nhận và khoảng thời gian bạn có. Một chuyên gia hành trình sẽ trả lời trong 48 giờ.</p><a class="button button-light" href="mailto:hello@auravoyages.vn">Nói chuyện với AURA <span aria-hidden="true">↗</span></a></div>
+      <div class="contact-stamp" aria-hidden="true">AURA<br><span>made for<br>the curious</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand brand-footer" href="#top"><span class="brand-mark">A</span><span class="brand-text">AURA <em>VOYAGES</em></span></a><p>Hành trình có chiều sâu · Việt Nam & Đông Nam Á</p><div class="footer-links"><a href="#top">Instagram</a><a href="mailto:hello@auravoyages.vn">Liên hệ</a><a href="#top">Chính sách</a></div><p class="copyright">© 2025 AURA Voyages</p></footer>
+</body>
+</html>
