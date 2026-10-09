@@ -7,15 +7,15 @@
   with a load-in fallback for older browsers.
 */
 :root {
-  --ink: #101816;
-  --ink-soft: #48534d;
-  --paper: #f7f5ef;
-  --paper-deep: #e9e5d9;
-  --cream: #ede9de;
-  --line: rgba(16, 24, 22, .15);
-  --gold: #d19a51;
-  --gold-light: #e6b56d;
-  --ocean: #1e6265;
+  --ink: #102a43;
+  --ink-soft: #526b7a;
+  --paper: #f2f8fc;
+  --paper-deep: #dceef7;
+  --cream: #e8f4fa;
+  --line: rgba(16, 42, 67, .14);
+  --gold: #2f80a5;
+  --gold-light: #75b9d0;
+  --ocean: #0d5b78;
   --display: 'Playfair Display', Georgia, serif;
   --sans: 'Manrope', Arial, sans-serif;
   --mono: 'DM Mono', monospace;
@@ -60,7 +60,7 @@ h1 i, h2 i { color: var(--gold); font-weight: 500; }
 .button:active { transform: translateY(-1px) scale(.98); }
 .button-light { background: #fff; color: var(--ink); }
 .button-light:hover { background: var(--gold-light); }
-.button-dark { background: var(--ink); color: #fff; }
+.button-dark { background: var(--ink); color: #884e4e; }
 .button-dark:hover { background: var(--ocean); }
 .hero-bottom { position: absolute; z-index: 1; right: clamp(1.25rem, 4vw, 4.5rem); bottom: 2rem; left: clamp(1.25rem, 4vw, 4.5rem); display: flex; justify-content: space-between; color: rgba(255,255,255,.65); font-family: var(--mono); font-size: .6rem; letter-spacing: .1em; text-transform: uppercase; }
 .scroll-cue { position: absolute; z-index: 1; right: 1.2rem; top: 50%; display: flex; align-items: center; gap: .55rem; writing-mode: vertical-rl; color: rgba(255,255,255,.65); font-family: var(--mono); font-size: .55rem; letter-spacing: .14em; text-transform: uppercase; }
